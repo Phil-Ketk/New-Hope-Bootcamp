@@ -42,8 +42,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase
 }
-p{
-    font-
+p{  
     font-size: 17px ; 
     font-family: gill sans; 
 }
@@ -59,9 +58,6 @@ h4 {
 img {
     width: 15%
 }
-.container {
- width: 80%
- margin: 0 auto;
-}
+
 
 
