@@ -1,8 +1,49 @@
+body {
+    color: white;
+    margin:0;
+    background: #222222;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+
+}
+
+
 h1 {
-    background-color: aqua ;
-    font-size:  30px ;
+    color: black;
+    background-color: aquamarine;
+    font-size:  22px ;
+    font-family: 'Noto Serif', serif;
+}
+h1::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+.h1 {
+    float: left;
+    padding: 10px 0;
+}
+nav {
+    float: right;
+    
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    
+}
+nav li {
+    display: inline-block;
+    margin-left:70px ;
+}
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase
 }
 p{
+    font-
     font-size: 17px ; 
     font-family: gill sans; 
 }
@@ -18,3 +59,9 @@ h4 {
 img {
     width: 15%
 }
+.container {
+ width: 80%
+ margin: 0 auto;
+}
+
+
