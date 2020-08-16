@@ -8,7 +8,7 @@ body {
     font-family: sans-serif;
 }
 .background{
-    background: #222222   
+    background: #706E66   
 }
 img {
     height: auto;
@@ -159,6 +159,80 @@ img {vertical-align: middle;}
     from {opacity: .4}
     to {opacity: 1}
   }
+  h1{text-align:center;}
+  h1{
+      color: white;
+      margin-bottom: 5px;
+  }
+  h2{text-align:center;}
+  h2{
+      color: whitesmoke;
+      font-size: 13px;
+      margin-top: 7px;
+      margin-bottom: 30px;
+      
+  }
+  p{text-align:center;}
+  p{
+      color: whitesmoke;
+      font-size: 14px;
+  }
+  .miniabout{
+      margin: 2.25px 0;
+  }
+  .background_padding{
+      padding-left: 45px;
+      padding-right: 45px;
+  }
+  .centerLogo{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 5%;
+  }
+  .centerLogo2{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 5%;
+  }
+  
+  /* .column{
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+  }
+  .row::after{
+      content: "";
+      clear: both;
+      display: table;
+  }
+  .DoorDash{
+      text-align: center;
+      margin: 0 0;
+  }
+  .UberEats{
+      text-align: center;
+      margin: 00 0;
+  } */
+
+
+
+
+  /* .center{
+      margin:0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+  }
+
+  .container_1{
+      height: 200px;
+      position: relative;
+      border: 3px #706E66;
+  } */
 
 
 
