@@ -176,7 +176,7 @@ img {vertical-align: middle;}
   p{
       color: whitesmoke;
       font-size: 14px;
-  }
+  } 
   .miniabout{
       margin: 2.25px 0;
   }
@@ -184,7 +184,31 @@ img {vertical-align: middle;}
       padding-left: 45px;
       padding-right: 45px;
   }
-  .centerLogo{
+  .centeredLogos{
+      display: inline-block;
+      margin:auto;
+      width: 23%;
+  }
+  *{
+      box-sizing: border-box;
+  }
+  body,html{
+      height:100%;
+      margin:0;
+      padding:0;
+      font-family:
+  }
+  .bg-image{
+      background-image: url(diningtablebg.jpg)
+  }
+
+
+
+  /* .googlemaps{
+      margin-top: 10rem;
+  } */
+
+  /* .centerLogo{
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -195,44 +219,8 @@ img {vertical-align: middle;}
      margin-left: auto;
      margin-right: auto;
      width: 5%;
-  }
+  } */
   
-  /* .column{
-      float: left;
-      width: 33.33%;
-      padding: 5px;
-  }
-  .row::after{
-      content: "";
-      clear: both;
-      display: table;
-  }
-  .DoorDash{
-      text-align: center;
-      margin: 0 0;
-  }
-  .UberEats{
-      text-align: center;
-      margin: 00 0;
-  } */
-
-
-
-
-  /* .center{
-      margin:0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-  }
-
-  .container_1{
-      height: 200px;
-      position: relative;
-      border: 3px #706E66;
-  } */
 
 
 
