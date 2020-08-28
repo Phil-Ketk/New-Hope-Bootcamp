@@ -4,14 +4,11 @@ body {
     font-weight: 300;
     background: #222222   
 }
-.bodytextfont{
-    font-family: 'Mulish', sans-serif; 
-}
-.bodytextsize{
-    font-size: 18px;
+.bodytext{
+    font-family: sans-serif;
 }
 .background{
-    background: #706E66;	
+    background: #706E66   
 }
 img {
     height: auto;
@@ -38,6 +35,8 @@ header::after{
 }
 nav {
     float: right;
+
+
 }
 nav ul {
     margin: 0;
@@ -57,7 +56,7 @@ nav a{
     color: #444; 
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 19px;
 }
 nav a:hover {
     color: #000; 
@@ -80,28 +79,45 @@ nav a::before {
 nav a:hover::before{
     width: 100%;
 }
+.food_background{
+    width: 100%;
+}
+h1{
+    text-align:center;
+    color: white;
+}
+p{
+    text-align:center;
+    color: white;
+}
+.aboutmenu{
+     margin: 2.25px 0;
+}
+.centered_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.flex_container{
+    display:flex;
+    justify-content: center;
+    color: white;
+    font-weight: 500;  
+}
+.flexitem{
+    margin: 5rem 5rem;
+    text-align: center; 
+}
 
 
-h2 {
-    font-size: 22px ;
-    margin-top:0;
-    padding-top:3rem;
-    margin-left:3rem;
-    
-}
-h3 {
-    font-size: 22px ;
-}
-h4 {
-    font-size: 22px ;
-}
-.staff_images {
-    width: 65%
-}
-.background-padding{
-    padding-left: 45px;
-    padding-right: 45px;
-}
+
+
+
+
+
+
+
 .footer{
     width: 100vw;
     display: block;
@@ -158,10 +174,3 @@ h4 {
     display: inline-block;
     padding: 0;
 }
-
-
-
-
-
-
-
